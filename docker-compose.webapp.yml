@@ -1,7 +1,7 @@
 x-env: &webapp-env
-  LOGIN_ORIGIN: https://${TRIGGER_DOMAIN:?Please set this in your .env file}
-  APP_ORIGIN: https://${TRIGGER_DOMAIN}
-  DEV_OTEL_EXPORTER_OTLP_ENDPOINT: https://${TRIGGER_DOMAIN}/otel
+  LOGIN_ORIGIN: https://trigger.brimble.io
+  APP_ORIGIN: https://trigger.brimble.io
+  DEV_OTEL_EXPORTER_OTLP_ENDPOINT: https://trigger.brimble.io/otel
   ELECTRIC_ORIGIN: http://electric:3000
 
 volumes:
